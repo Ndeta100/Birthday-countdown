@@ -8,9 +8,9 @@ const loading=document.getElementById('loading')
 // const days=document.getElementById('days')
 
 const currentYear=new Date().getFullYear()
-const birthDay= new Date(`February 03 ${currentYear +1} 00:00:00`)
+const birthDay= new Date(`February 03 ${currentYear} 00:00:00`)
 //set bg year
-year.innerText=currentYear+1
+year.innerText=currentYear
 
 //Update countdown time
 function updateCountdown(){
